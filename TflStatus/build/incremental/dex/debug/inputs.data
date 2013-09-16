@@ -1,0 +1,20 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1379365285000 2046 d3581951a9eca1ff58d7418ff1708cbbde9df76c /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/build/classes/debug/com/adgad/tflstatus/StatusJSONParser.class
+1379358160000 468 620c9a41576ebdf3ef3b8db259071d98f1bf8ec8 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/build/classes/debug/com/adgad/tflstatus/BuildConfig.class
+1379358160000 460 43dca89af6913ac138cc64444ca6a896caff6ded /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/build/classes/debug/com/adgad/tflstatus/R$id.class
+1379358160000 343 a81a213e4cec34a2ab52213bcc0599c69a2e5934 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/build/classes/debug/com/adgad/tflstatus/R$attr.class
+1379358160000 393 134a13ffb2147dbb6b74cad9fc430d8d8025346b /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/build/classes/debug/com/adgad/tflstatus/R$menu.class
+1379278826000 490914 3fe75433da602500cc71fcc1c46e5550291dd45d /Users/arg01/Android/android-sdk-macosx/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar
+1379358160000 687 0e92a7152c51f78a134f7ad241c1fc00a7d1c645 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/build/classes/debug/com/adgad/tflstatus/R.class
+1379358160000 475 8f2b54083965f69b07f1137a5e307b3fa9d41837 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/build/classes/debug/com/adgad/tflstatus/R$string.class
+1379363979000 2447 f8c753dabdab66ed105297b9a7c40c8b01754861 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/build/classes/debug/com/adgad/tflstatus/StatusActivity$JSONStatusTask.class
+1379358160000 434 8563c44a01c1da70159be33349d64770781c684f /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/build/classes/debug/com/adgad/tflstatus/R$style.class
+1379363979000 1033 84dfe4988c0e3eea2b2f059d100e961e1578f07f /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/build/classes/debug/com/adgad/tflstatus/Status.class
+1379358160000 464 f2390f7cc106748bdcc5becfef41556d02e07996 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/build/classes/debug/com/adgad/tflstatus/R$dimen.class
+1379364536000 1845 d8bad29c56f639af0c5085bd31500cd59b5f6830 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/build/classes/debug/com/adgad/tflstatus/StatusHttpClient.class
+1379363979000 1331 e2edc18508eb4bf5220237af73ebc20eaae7bac3 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/build/classes/debug/com/adgad/tflstatus/StatusActivity.class
+1379358160000 410 8a03280c4677490b64c35ef82a4e2b5a427ed327 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/build/classes/debug/com/adgad/tflstatus/R$drawable.class
+1379363979000 233 7e07ee7e9b58d0c56523a9e1608e312f3998739b /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/build/classes/debug/com/adgad/tflstatus/StatusActivity$1.class
+1379358160000 408 776658bb02d337477e78111a3cf629069abffe56 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/build/classes/debug/com/adgad/tflstatus/R$layout.class

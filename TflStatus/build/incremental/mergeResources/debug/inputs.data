@@ -1,0 +1,18 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1379278535000 244 045ff451db7cd8e61285502b8c9bbf7405f2078d /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/menu/status.xml
+1379278535000 211 4e1904afba59d31e5cd6133f6a4c360fa9a5913f /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/values/dimens.xml
+1379367976000 464 fe3cd6092e7125bb742126b5d37d80346319743e /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/values/strings.xml
+1379367954000 232 d9b27e0e78a9f283989c9f6c949f0b23b0a76025 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/values/colors.xml
+1379278535000 181 84de2797380184d8b39af6f829afb092fb956173 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/values-sw600dp/dimens.xml
+1379278535000 324 aa1f5f1723de9aee2669dc44a26fbc0ce776d35f /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/values-v11/styles.xml
+1379278535000 680 c76f4caaa7a8dfe9727fa93001b3aee3b22d6716 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/values/styles.xml
+1379368578000 2139 28e761e6a2943fd3a494e9b25e20637c6f772004 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/layout/card_play.xml
+1379366861000 1157 185914295ef4e34aece0ded88871f0a54fa863fa /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/layout/activity_status.xml
+1379278535000 5630 ee2a7fae3c555d458156ea57a0687e2a8f387108 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/drawable-hdpi/ic_launcher.png
+1379278535000 7501 736f88ed8436b7b7eaed58ea737bb255d0ff9681 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/drawable-xhdpi/ic_launcher.png
+1379278535000 11648 db87d5c241dd82ad4a858332531445be0d99b527 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/drawable-xxhdpi/ic_launcher.png
+1379278535000 3300 6445968cf8446721d69be7803491eb93224e2aff /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/drawable-mdpi/ic_launcher.png
+1379367470000 1149 85fe51da2d0e7bb4a0adc8cb7523c294b37d1eba /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/drawable/selectable_background_cardbank.xml
+1379278535000 254 25b6404e44acb50c82590049639d4fb5fefbac8e /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/values-sw720dp-land/dimens.xml
