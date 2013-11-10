@@ -13,11 +13,19 @@ public final class R {
     public static final class color {
         /**  From: file:/Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/values/colors.xml 
          */
-        public static final int golden=0x7f040000;
-        public static final int green=0x7f040001;
-        public static final int holoblue=0x7f040002;
-        public static final int red=0x7f040003;
-        public static final int skyblue=0x7f040004;
+        public static final int bakerloo=0x7f040000;
+        public static final int central=0x7f040001;
+        public static final int circle=0x7f040002;
+        public static final int district=0x7f040003;
+        public static final int dlr=0x7f040004;
+        public static final int hammersmithandcity=0x7f040005;
+        public static final int jubilee=0x7f040006;
+        public static final int metropolitan=0x7f040007;
+        public static final int northern=0x7f040008;
+        public static final int overground=0x7f040009;
+        public static final int piccadilly=0x7f04000a;
+        public static final int victoria=0x7f04000b;
+        public static final int waterlooandcity=0x7f04000c;
     }
     public static final class dimen {
         /**  From: file:/Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/values/dimens.xml 
@@ -27,22 +35,19 @@ public final class R {
         public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
-        public static final int selectable_background_cardbank=0x7f020001;
+        public static final int colors=0x7f020000;
+        public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
-        public static final int action_settings=0x7f090007;
-        public static final int cardsview=0x7f090002;
-        public static final int contentLayout=0x7f090004;
-        public static final int description=0x7f090006;
-        public static final int gestureOverlayView=0x7f090001;
-        public static final int stripe=0x7f090003;
-        public static final int textView=0x7f090000;
-        public static final int title=0x7f090005;
+        public static final int action_settings=0x7f090004;
+        public static final int firstLine=0x7f090003;
+        public static final int icon=0x7f090001;
+        public static final int listview=0x7f090000;
+        public static final int secondLine=0x7f090002;
     }
     public static final class layout {
         public static final int activity_status=0x7f030000;
-        public static final int card_play=0x7f030001;
+        public static final int list_item=0x7f030001;
     }
     public static final class menu {
         public static final int status=0x7f080000;

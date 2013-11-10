@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.Menu;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import org.json.JSONException;
@@ -12,12 +13,19 @@ import java.util.ArrayList;
 import java.util.List;
 public class StatusActivity extends Activity {
 
+    StatusArrayAdapter adapter;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_status);
-        TextView textView = (TextView) findViewById(R.id.textView);
+        adapter = new StatusArrayAdapter(this, new ArrayList<Status>());
+        // 2. Get ListView from activity_main.xml
+        ListView listView = (ListView) findViewById(R.id.listview);
 
+        // 3. setListAdapter
+        listView.setAdapter(adapter);
         new JSONStatusTask().execute();
     }
 
@@ -43,15 +51,12 @@ public class StatusActivity extends Activity {
             } catch (JSONException e) {
                 e.printStackTrace();
             }
-            return ((com.adgad.tflstatus.Status)statii.get(0)).getStatus();
+            return (statii.get(0)).getStatus();
 
         }
         protected void onPostExecute(String result) {
-
-            // add AndroidViews Cards
-            com.adgad.tflstatus.Status currentStatus = statii.get(0);
-            TextView tv = (TextView) findViewById(R.id.textView);
-            tv.setText(currentStatus.getStatus());
+            adapter.addAll(statii);
+            adapter.notifyDataSetChanged();
         }
     }
 

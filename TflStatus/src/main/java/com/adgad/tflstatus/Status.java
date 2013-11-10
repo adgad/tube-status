@@ -1,7 +1,5 @@
 package com.adgad.tflstatus;
 
-import com.fima.cardsui.objects.Card;
-
 /**
  * Created by arg01 on 16/09/2013.
  */
@@ -38,6 +36,14 @@ public class Status {
 
     public void setDetails(String details) {
         this.details = details;
+    }
+
+    public String getFullDetails() {
+        if(this.status.equals("GoodService")) {
+            return "Good Service";
+        } else {
+            return "Disrupted Service - " + this.getDetails();
+        }
     }
 
 }

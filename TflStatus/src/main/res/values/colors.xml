@@ -1,9 +1,17 @@
 <resources>
 
-    <color name="golden">#f2a400</color>
-    <color name="red">#e00707</color>
-    <color name="green">#4ac925</color>
-    <color name="skyblue">#00d5f2</color>
-    <color name="holoblue">#ff33b6ea</color>
+    <color name="bakerloo">#996633</color>
+    <color name="central">#cc3333</color>
+    <color name="circle">#ffcc00</color>
+    <color name="district">#006633</color>
+    <color name="hammersmithandcity">#cc9999</color>
+    <color name="jubilee">#868f98</color>
+    <color name="metropolitan">#660066</color>
+    <color name="northern">#000000</color>
+    <color name="piccadilly">#000099</color>
+    <color name="victoria">#0099cc</color>
+    <color name="waterlooandcity">#66cccc</color>
+    <color name="overground">#ff6600</color>
+    <color name="dlr">#009999</color>
 
 </resources>
