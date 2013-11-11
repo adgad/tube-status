@@ -38,7 +38,7 @@
         android:layout_alignWithParentIfMissing="true"
         android:layout_toRightOf="@id/icon"
         android:gravity="center_vertical"
-        android:fontFamily="sans-serif-light"
+        android:fontFamily="sans-serif-thin"
         android:text="Example application"
         android:textSize="20sp" />
 

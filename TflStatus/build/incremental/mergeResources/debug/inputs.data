@@ -1,19 +1,23 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1379278535000 244 045ff451db7cd8e61285502b8c9bbf7405f2078d /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/menu/status.xml
 1384111283000 212 e00a4320b61543ff40916f2e4d7239223001cf48 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/values/dimens.xml
+1384176919000 286 9bd766e90bc82fb5d439250f9ea57a0604423b3e /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/menu/status.xml
 1379367976000 464 fe3cd6092e7125bb742126b5d37d80346319743e /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/values/strings.xml
 1384113242000 601 6877159f8c29e7e4abddbb684a1b8f79c5b79235 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/values/colors.xml
 1379278535000 181 84de2797380184d8b39af6f829afb092fb956173 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/values-sw600dp/dimens.xml
+1368470554000 2582 a1bbc9398f2056a78530ef3851b63033ee6a652a /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/drawable-xhdpi/ic_action_refresh.png
 1384175082000 578 db645301dd3466d8b3b40247d1b1b21f0cc5afe9 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/layout/on_load.xml
+1368470554000 2582 a1bbc9398f2056a78530ef3851b63033ee6a652a /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/drawable-xxhdpi/ic_action_refresh.png
 1379278535000 324 aa1f5f1723de9aee2669dc44a26fbc0ce776d35f /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/values-v11/styles.xml
 1379278535000 680 c76f4caaa7a8dfe9727fa93001b3aee3b22d6716 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/values/styles.xml
-1384174128000 733 f7fe69c6c42f60ecf8c2972c23d50d75743e9d68 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/layout/activity_status.xml
+1384180529000 950 eb1aa36c3a71174a8bbbc816f7bf6d768db33580 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/layout/activity_status.xml
 1379278535000 5630 ee2a7fae3c555d458156ea57a0687e2a8f387108 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/drawable-hdpi/ic_launcher.png
 1379278535000 7501 736f88ed8436b7b7eaed58ea737bb255d0ff9681 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/drawable-xhdpi/ic_launcher.png
+1368470557000 1517 ddd170a030a17b34dd113017b61cddd3b2214d6a /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/drawable-mdpi/ic_action_refresh.png
+1368470558000 2418 bc0982c26ebbc749932ac2ead6f0801d3bb46fed /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/drawable-hdpi/ic_action_refresh.png
 1384112962000 122 b21f8b71b34f18457b29ec7f1ce5185a29782a34 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/drawable/colors.xml
 1379278535000 11648 db87d5c241dd82ad4a858332531445be0d99b527 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/drawable-xxhdpi/ic_launcher.png
 1379278535000 3300 6445968cf8446721d69be7803491eb93224e2aff /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/drawable-mdpi/ic_launcher.png
-1384176298000 1836 68efc1d20db125bedac10673c1813f40a9099418 /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/layout/list_item.xml
+1384176435000 1835 ca01fa3481dbcb5ec14484f208cd1e295c615a1b /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/layout/list_item.xml
 1379278535000 254 25b6404e44acb50c82590049639d4fb5fefbac8e /Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/values-sw720dp-land/dimens.xml

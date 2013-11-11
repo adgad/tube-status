@@ -21,18 +21,20 @@ public class StatusHttpClient {
 
     public String getTubeStatusData() {
 
-
+        String strContent = "";
         InputStream content = null;
         try {
             HttpClient httpclient = new DefaultHttpClient();
             HttpResponse response = httpclient.execute(new HttpGet(BASE_URL));
-            content = response.getEntity().getContent();
+            strContent = convertStreamToString(response.getEntity().getContent());
+            //make sure we get valid content back!
+            if(strContent.indexOf("Bakerloo") >= 0) return strContent;
         }
         catch(Throwable t) {
             t.printStackTrace();
         }
 
-        return convertStreamToString(content);
+        return null;
     };
 
     private static String convertStreamToString(java.io.InputStream is) {
