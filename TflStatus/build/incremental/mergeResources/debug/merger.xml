@@ -4,6 +4,11 @@
     <dataSet config="main" >
         <source path="/Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res" >
             <file
+                name="colors"
+                path="/Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/drawable/colors.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="/Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi"
@@ -26,6 +31,16 @@
             <file
                 name="activity_status"
                 path="/Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/layout/activity_status.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item"
+                path="/Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/layout/list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="on_load"
+                path="/Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/layout/on_load.xml"
                 qualifiers=""
                 type="layout" />
             <file
@@ -56,11 +71,11 @@
                 </color>
                 <color name="metropolitan" >#660066
                 </color>
-                <color name="victoria" >#0099cc
+                <color name="hammersmithandcity" >#cc9999
                 </color>
                 <color name="jubilee" >#868f98
                 </color>
-                <color name="hammersmithandcity" >#cc9999
+                <color name="victoria" >#0099cc
                 </color>
             </file>
             <file
@@ -82,9 +97,9 @@
                 </string>
                 <string name="color_stripe" >Color Stripe
                 </string>
-                <string name="title" >Title
-                </string>
                 <string name="app_name" >TflStatus
+                </string>
+                <string name="title" >Title
                 </string>
                 <string name="hello_world" >Hello world!
                 </string>
@@ -130,16 +145,6 @@
                     <!-- API 11 theme customizations can go here. -->
                 </style>
             </file>
-            <file
-                name="list_item"
-                path="/Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/layout/list_item.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="colors"
-                path="/Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/drawable/colors.xml"
-                qualifiers=""
-                type="drawable" />
         </source>
         <source path="/Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/build/res/rs/debug" />
     </dataSet>

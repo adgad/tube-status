@@ -44,7 +44,7 @@ public class StatusArrayAdapter extends ArrayAdapter<Status> {
         // 4. Set the text for textView
         String statusName = statusArrayList.get(position).getName();
         topRow.setText(statusName);
-        bottomRow.setText(statusArrayList.get(position).getDetails());
+        bottomRow.setText(statusArrayList.get(position).getFullDetails());
         String colorId = statusName.toLowerCase().replaceAll("\\s+","");
         img.setBackgroundColor(context.getResources().getColor(context.getResources().getIdentifier(colorId, "color", "com.adgad.tflstatus")));
 
