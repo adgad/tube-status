@@ -23,6 +23,14 @@
     <shared>
       <config />
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/TflStatus/src/main/res/layout/list_item.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+    </layouts>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0761f833-3500-433c-8afd-3d9bede14bf4" name="Default" comment="" />
@@ -108,29 +116,32 @@
       <file leaf-file-name="StatusActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/StatusActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0" vertical-offset="281" max-vertical-offset="1515">
+            <state line="78" column="25" selection-start="2396" selection-end="2396" vertical-scroll-proportion="0.0" vertical-offset="909" max-vertical-offset="1515">
               <folding>
                 <element signature="e#1738#1766#0" expanded="true" />
-                <element signature="e#3136#3389#0" expanded="true" />
-                <element signature="e#3366#3367#0" expanded="true" />
+                <element signature="e#3116#3369#0" expanded="true" />
+                <element signature="e#3346#3347#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActivityThread.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Android/android-sdk-macosx/sources/android-17/android/app/ActivityThread.java">
+      <file leaf-file-name="ArrayList.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Android/android-sdk-macosx/sources/android-17/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2175" column="0" selection-start="90714" selection-end="90714" vertical-scroll-proportion="0.0" vertical-offset="30761" max-vertical-offset="73965">
+            <state line="254" column="0" selection-start="9295" selection-end="9295" vertical-scroll-proportion="0.0" vertical-offset="3324" max-vertical-offset="9675">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZygoteInit.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Android/android-sdk-macosx/sources/android-17/com/android/internal/os/ZygoteInit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="782" column="0" selection-start="26612" selection-end="26612" vertical-scroll-proportion="0.0" vertical-offset="10946" max-vertical-offset="11565">
+      <file leaf-file-name="activity_status.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TflStatus/src/main/res/layout/activity_status.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="9" column="28" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
               <folding />
             </state>
           </provider>
@@ -148,19 +159,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TflStatus/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StatusArrayAdapter.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="StatusArrayAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/StatusArrayAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="34" selection-start="427" selection-end="427" vertical-scroll-proportion="0.29220778" vertical-offset="0" max-vertical-offset="810">
+            <state line="29" column="75" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
@@ -180,7 +182,7 @@
       <file leaf-file-name="Status.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/Status.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="825">
+            <state line="42" column="34" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0" vertical-offset="267" max-vertical-offset="825">
               <folding />
             </state>
           </provider>
@@ -189,19 +191,28 @@
       <file leaf-file-name="StatusJSONParser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/StatusJSONParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="615">
+            <state line="14" column="40" selection-start="276" selection-end="285" vertical-scroll-proportion="-5.1923075" vertical-offset="0" max-vertical-offset="615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_item.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="StatusHttpClient.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/StatusHttpClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="13" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_item.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TflStatus/src/main/res/layout/list_item.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="41" selection-start="591" selection-end="591" vertical-scroll-proportion="-3.3333333" vertical-offset="135" max-vertical-offset="720">
+            <state line="40" column="43" selection-start="1737" selection-end="1737" vertical-scroll-proportion="0.7386831" vertical-offset="241" max-vertical-offset="750">
               <folding />
             </state>
           </provider>
@@ -580,13 +591,13 @@
         <option value="$PROJECT_DIR$/TflStatus/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/TflStatus/src/main/res/drawable/colors.xml" />
         <option value="$PROJECT_DIR$/TflStatus/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/Status.java" />
-        <option value="$PROJECT_DIR$/TflStatus/src/main/res/layout/list_item.xml" />
         <option value="$PROJECT_DIR$/TflStatus/src/main/res/layout/activity_status.xml" />
-        <option value="$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/StatusActivity.java" />
         <option value="$PROJECT_DIR$/TflStatus/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/TflStatus/src/main/res/layout/on_load.xml" />
         <option value="$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/StatusArrayAdapter.java" />
+        <option value="$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/StatusActivity.java" />
+        <option value="$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/Status.java" />
+        <option value="$PROJECT_DIR$/TflStatus/src/main/res/layout/list_item.xml" />
       </list>
     </option>
   </component>
@@ -1160,19 +1171,19 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37380952" sideWeight="0.67132866" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39832535" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39832535" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39832535" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33732057" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277512" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33732057" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33732057" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33205375" sideWeight="0.6016746" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33205375" sideWeight="0.66267943" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277512" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1222,18 +1233,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../cardsui-for-android/CardsUILib/res/layout/cards_view.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="488" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TflStatus/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TflStatus/src/main/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
@@ -1255,46 +1254,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TflStatus/src/main/res/layout/activity_status.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="509" selection-end="509" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TflStatus/src/main/res/layout/list_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="41" selection-start="591" selection-end="591" vertical-scroll-proportion="-3.3333333" vertical-offset="135" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TflStatus/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Android/android-sdk-macosx/sources/android-17/com/android/internal/os/ZygoteInit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="782" column="0" selection-start="26612" selection-end="26612" vertical-scroll-proportion="0.0" vertical-offset="10938" max-vertical-offset="11565">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TflStatus/src/main/res/layout/on_load.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="578" selection-end="578" vertical-scroll-proportion="-8.888889" vertical-offset="0" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
@@ -1306,9 +1268,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/Status.java">
+    <entry file="file://$PROJECT_DIR$/TflStatus/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="825">
+        <state line="20" column="0" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
@@ -1324,25 +1286,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/StatusActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0" vertical-offset="281" max-vertical-offset="1515">
+        <state line="78" column="25" selection-start="2396" selection-end="2396" vertical-scroll-proportion="0.0" vertical-offset="909" max-vertical-offset="1515">
           <folding>
             <element signature="e#1738#1766#0" expanded="true" />
-            <element signature="e#3136#3389#0" expanded="true" />
-            <element signature="e#3366#3367#0" expanded="true" />
+            <element signature="e#3116#3369#0" expanded="true" />
+            <element signature="e#3346#3347#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/StatusJSONParser.java">
+    <entry file="file://$USER_HOME$/Android/android-sdk-macosx/sources/android-17/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="615">
+        <state line="254" column="0" selection-start="9295" selection-end="9295" vertical-scroll-proportion="0.0" vertical-offset="3324" max-vertical-offset="9675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TflStatus/src/main/res/layout/on_load.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="14" selection-start="578" selection-end="578" vertical-scroll-proportion="-8.888889" vertical-offset="0" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/StatusArrayAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="34" selection-start="427" selection-end="427" vertical-scroll-proportion="0.29220778" vertical-offset="0" max-vertical-offset="810">
+        <state line="29" column="75" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/StatusJSONParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="40" selection-start="276" selection-end="285" vertical-scroll-proportion="-5.1923075" vertical-offset="0" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/StatusHttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="34" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0" vertical-offset="267" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TflStatus/src/main/res/layout/activity_status.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="9" column="28" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TflStatus/src/main/res/layout/list_item.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="43" selection-start="1737" selection-end="1737" vertical-scroll-proportion="0.7386831" vertical-offset="241" max-vertical-offset="750">
           <folding />
         </state>
       </provider>

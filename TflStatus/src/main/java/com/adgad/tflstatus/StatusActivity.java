@@ -76,7 +76,7 @@ public class StatusActivity extends Activity {
             } catch (JSONException e) {
                 e.printStackTrace();
             }
-            return (statii.get(0)).getStatus();
+            return "done!";
 
         }
         protected void onPostExecute(String result) {

@@ -2,7 +2,7 @@
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:layout_height="?android:attr/listPreferredItemHeightLarge"
     android:padding="6dip" >
 
     <ImageView
@@ -18,14 +18,15 @@
     <TextView
         android:id="@+id/secondLine"
         android:layout_width="fill_parent"
-        android:layout_height="26dip"
+        android:layout_height="34dip"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_toRightOf="@id/icon"
         android:ellipsize="marquee"
-        android:singleLine="true"
-        android:text="Description"
-        android:textSize="12sp" />
+        android:singleLine="false"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Description with a bunch of crapDescription with a bunch of crapDescription with a bunch of crapDescription with a bunch of crapDescription with a bunch of crapDescription with a bunch of crapDescription with a bunch of crap"
+        android:textSize="14sp" />
 
     <TextView
         android:id="@+id/firstLine"
@@ -37,7 +38,8 @@
         android:layout_alignWithParentIfMissing="true"
         android:layout_toRightOf="@id/icon"
         android:gravity="center_vertical"
+        android:fontFamily="sans-serif-thin"
         android:text="Example application"
-        android:textSize="16sp" />
+        android:textSize="20sp" />
 
 </RelativeLayout>
