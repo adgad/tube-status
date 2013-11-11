@@ -17,23 +17,22 @@
 
     <TextView
         android:id="@+id/secondLine"
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="34dip"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
         android:layout_toRightOf="@id/icon"
-        android:ellipsize="marquee"
+        android:ellipsize="end"
         android:singleLine="false"
+        android:maxLines="2"
         android:fontFamily="sans-serif-condensed"
         android:text="Description with a bunch of crapDescription with a bunch of crapDescription with a bunch of crapDescription with a bunch of crapDescription with a bunch of crapDescription with a bunch of crapDescription with a bunch of crap"
         android:textSize="14sp" />
 
     <TextView
         android:id="@+id/firstLine"
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/secondLine"
-        android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_alignWithParentIfMissing="true"
         android:layout_toRightOf="@id/icon"
@@ -42,4 +41,14 @@
         android:text="Example application"
         android:textSize="20sp" />
 
+    <ImageView
+        android:id="@+id/problem_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:padding="3dip"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_dialog_alert_holo_light"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/firstLine"
+        android:layout_above="@+id/secondLine" />
 </RelativeLayout><!-- From: file:/Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/layout/list_item.xml -->

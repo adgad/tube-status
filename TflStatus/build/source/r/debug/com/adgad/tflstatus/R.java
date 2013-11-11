@@ -35,18 +35,19 @@ public final class R {
         public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int colors=0x7f020000;
-        public static final int ic_action_refresh=0x7f020001;
+        public static final int ic_action_refresh=0x7f020000;
+        public static final int ic_dialog_alert_holo_light=0x7f020001;
         public static final int ic_launcher=0x7f020002;
     }
     public static final class id {
-        public static final int action_refresh=0x7f090007;
+        public static final int action_refresh=0x7f090008;
         public static final int content=0x7f090000;
         public static final int firstLine=0x7f090005;
         public static final int icon=0x7f090003;
         public static final int lastUpdated=0x7f090002;
         public static final int listview=0x7f090001;
-        public static final int loading_spinner=0x7f090006;
+        public static final int loading_spinner=0x7f090007;
+        public static final int problem_icon=0x7f090006;
         public static final int secondLine=0x7f090004;
     }
     public static final class layout {
@@ -60,14 +61,7 @@ public final class R {
     public static final class string {
         /**  From: file:/Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/values/strings.xml 
          */
-        public static final int action_settings=0x7f060000;
-        public static final int app_name=0x7f060001;
-        public static final int color_stripe=0x7f060002;
-        public static final int desc=0x7f060003;
-        public static final int hello_world=0x7f060004;
-        public static final int overflow=0x7f060005;
-        public static final int title=0x7f060006;
-        public static final int title_activity_main=0x7f060007;
+        public static final int app_name=0x7f060000;
     }
     public static final class style {
         /**  From: file:/Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/values/styles.xml 

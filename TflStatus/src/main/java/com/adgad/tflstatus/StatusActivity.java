@@ -15,6 +15,8 @@ import org.json.JSONException;
 
 import java.text.DateFormat;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 public class StatusActivity extends Activity {
@@ -90,6 +92,16 @@ public class StatusActivity extends Activity {
                 if(data != null) {
                     statii = StatusJSONParser.getStatii(data);
                     if (statii.size() > 0) retStatus ="success";
+                    Collections.sort(statii, new Comparator<com.adgad.tflstatus.Status>() {
+                        @Override
+                        public int compare(com.adgad.tflstatus.Status lhs, com.adgad.tflstatus.Status rhs) {
+                            if (lhs.getStatus().equals("Good Service")) {
+                                return 1;
+                            } else {
+                                return -1;
+                            }
+                        }
+                    });
                 }
 
             } catch (JSONException e) {
@@ -138,6 +150,6 @@ public class StatusActivity extends Activity {
     }
 
     private CharSequence getLastUpdatedTime() {
-       return "Last Updated: " + android.text.format.DateFormat.format("EEEE hh:mm:ss", new java.util.Date());
+       return "Last Updated: " + android.text.format.DateFormat.format("EEEE HH:mm:ss", new java.util.Date());
     };
 }

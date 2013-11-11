@@ -39,11 +39,11 @@ public class Status {
     }
 
     public String getFullDetails() {
-        if(this.status.equals("GoodService")) {
-            return "Good Service";
-        } else {
-            return "Disrupted Service - " + this.getDetails();
+        String full = this.getStatus();
+        if(this.getDetails().length() > 0) {
+            full += " - " + this.getDetails();
         }
+        return full;
     }
 
 }

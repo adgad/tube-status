@@ -19,14 +19,7 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <!-- From: file:/Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/values/strings.xml -->
-    <string name="action_settings">Settings</string>
-    <string name="app_name">TflStatus</string>
-    <string name="color_stripe">Color Stripe</string>
-    <string name="desc">Description</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="overflow">Menu Overflow</string>
-    <string name="title">Title</string>
-    <string name="title_activity_main">CardsUI</string>
+    <string name="app_name">Tube Statii</string>
     <!-- From: file:/Users/arg01/AndroidStudioProjects/TflStatusProject/TflStatus/src/main/res/values/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

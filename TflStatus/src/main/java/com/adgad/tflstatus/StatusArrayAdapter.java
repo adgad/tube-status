@@ -40,6 +40,7 @@ public class StatusArrayAdapter extends ArrayAdapter<Status> {
         TextView topRow = (TextView) rowView.findViewById(R.id.firstLine);
         TextView bottomRow = (TextView) rowView.findViewById(R.id.secondLine);
         ImageView img = (ImageView) rowView.findViewById(R.id.icon);
+        ImageView alertIcon = (ImageView) rowView.findViewById(R.id.problem_icon);
 
         // 4. Set the text for textView
         String statusName = statusArrayList.get(position).getName();
@@ -47,7 +48,10 @@ public class StatusArrayAdapter extends ArrayAdapter<Status> {
         bottomRow.setText(statusArrayList.get(position).getFullDetails());
         String colorId = statusName.toLowerCase().replaceAll("\\s+","");
         img.setBackgroundColor(context.getResources().getColor(context.getResources().getIdentifier(colorId, "color", "com.adgad.tflstatus")));
-
+        String statusShort = statusArrayList.get(position).getStatus();
+        if(statusShort.equals("Good Service")) {
+            alertIcon.setVisibility(View.GONE);
+        }
 
         // 5. return rowView
         return rowView;
