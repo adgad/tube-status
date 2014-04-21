@@ -41,8 +41,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0761f833-3500-433c-8afd-3d9bede14bf4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TflStatus/build/source/buildConfig/debug/com/adgad/tflstatus/BuildConfig.java" afterPath="$PROJECT_DIR$/TflStatus/build/source/buildConfig/debug/com/adgad/tflstatus/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TflStatus/build/source/r/debug/com/adgad/tflstatus/R.java" afterPath="$PROJECT_DIR$/TflStatus/build/source/r/debug/com/adgad/tflstatus/R.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TflStatus/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/ColouredDialogBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TflStatus/src/main/res/layout/coloured_dialog_layout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tube-status.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/apk/TflStatus-debug-unaligned.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/classes/debug/com/adgad/tflstatus/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/classes/debug/com/adgad/tflstatus/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/classes/debug/com/adgad/tflstatus/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/classes/debug/com/adgad/tflstatus/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/classes/debug/com/adgad/tflstatus/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/classes/debug/com/adgad/tflstatus/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/classes/debug/com/adgad/tflstatus/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/classes/debug/com/adgad/tflstatus/R$menu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/classes/debug/com/adgad/tflstatus/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/classes/debug/com/adgad/tflstatus/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/classes/debug/com/adgad/tflstatus/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/classes/debug/com/adgad/tflstatus/Status.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/classes/debug/com/adgad/tflstatus/StatusActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/classes/debug/com/adgad/tflstatus/StatusActivity$JSONStatusTask$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/classes/debug/com/adgad/tflstatus/StatusActivity$JSONStatusTask$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/classes/debug/com/adgad/tflstatus/StatusActivity$JSONStatusTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/classes/debug/com/adgad/tflstatus/StatusActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/classes/debug/com/adgad/tflstatus/StatusArrayAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/classes/debug/com/adgad/tflstatus/StatusHttpClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/classes/debug/com/adgad/tflstatus/StatusJSONParser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/incremental/aidl/debug/dependency.store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/incremental/aidl/debug/inputs.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/incremental/aidl/debug/outputs.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/incremental/dex/debug/inputs.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/incremental/dex/debug/outputs.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/incremental/mergeAssets/debug/inputs.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/incremental/mergeAssets/debug/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/incremental/mergeAssets/debug/outputs.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/incremental/mergeResources/debug/inputs.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/incremental/mergeResources/debug/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/incremental/mergeResources/debug/outputs.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/libs/TflStatus-debug.ap_" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/libs/TflStatus-debug.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/manifests/debug/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/res/all/debug/drawable-hdpi/ic_action_refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/res/all/debug/drawable-hdpi/ic_dialog_alert_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/res/all/debug/drawable-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/res/all/debug/drawable-mdpi/ic_action_refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/res/all/debug/drawable-mdpi/ic_dialog_alert_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/res/all/debug/drawable-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/res/all/debug/drawable-xhdpi/ic_action_refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/res/all/debug/drawable-xhdpi/ic_dialog_alert_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/res/all/debug/drawable-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/res/all/debug/drawable-xxhdpi/ic_action_refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/res/all/debug/drawable-xxhdpi/ic_dialog_alert_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/res/all/debug/drawable-xxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/res/all/debug/drawable/colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/res/all/debug/drawable/selectable_background_cardbank.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/res/all/debug/layout/activity_status.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/res/all/debug/layout/card_play.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/res/all/debug/layout/list_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/res/all/debug/layout/on_load.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/res/all/debug/menu/status.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/res/all/debug/values-sw720dp-land/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/res/all/debug/values-v11/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/res/all/debug/values/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/source/buildConfig/debug/com/adgad/tflstatus/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TflStatus/build/source/r/debug/com/adgad/tflstatus/R.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/Status.java" afterPath="$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/Status.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/StatusActivity.java" afterPath="$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/StatusActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TflStatus/TflStatus.iml" afterPath="$PROJECT_DIR$/TflStatus/TflStatus.iml" />
@@ -122,13 +183,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="coloured_dialog_layout.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="coloured_dialog_layout.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TflStatus/src/main/res/layout/coloured_dialog_layout.xml">
           <provider selected="true" editor-type-id="android-designer">
             <state />
           </provider>
           <provider editor-type-id="text-editor">
             <state line="55" column="43" selection-start="2174" selection-end="2174" vertical-scroll-proportion="0.0" vertical-offset="586" max-vertical-offset="1545">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TflStatus/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="51" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="495">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TflStatus/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="7" selection-start="46" selection-end="46" vertical-scroll-proportion="0.14962594" vertical-offset="0" max-vertical-offset="401">
               <folding />
             </state>
           </provider>
@@ -805,11 +884,12 @@
         <option value="$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/Status.java" />
         <option value="$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/MoreInfoDialogFragment.java" />
         <option value="$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/StatusArrayAdapter.java" />
-        <option value="$PROJECT_DIR$/TflStatus/build.gradle" />
         <option value="$PROJECT_DIR$/TflStatus/src/main/res/layout/activity_status.xml" />
         <option value="$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/ColouredDialogBuilder.java" />
         <option value="$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/StatusActivity.java" />
         <option value="$PROJECT_DIR$/TflStatus/src/main/res/layout/coloured_dialog_layout.xml" />
+        <option value="$PROJECT_DIR$/TflStatus/build.gradle" />
+        <option value="$PROJECT_DIR$/TflStatus/.gitignore" />
       </list>
     </option>
   </component>
@@ -876,204 +956,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TflStatus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TflStatus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tube-status" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TflStatus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TflStatus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tube-status" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TflStatus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TflStatus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tube-status" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TflStatus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TflStatus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tube-status" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TflStatus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TflStatus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tube-status" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TflStatus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-xhdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TflStatus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tube-status" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TflStatus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TflStatus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tube-status" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TflStatus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tflstatus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1155,6 +1037,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Android Application.TflStatus">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -1339,7 +1230,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="720" y="22" width="720" height="814" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1354,14 +1245,14 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32708934" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34582132" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34582132" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48055556" sideWeight="0.66267943" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48055556" sideWeight="0.66267943" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32564843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1637,13 +1528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TflStatus/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="275" selection-end="275" vertical-scroll-proportion="0.55944055" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TflStatus/src/main/java/com/adgad/tflstatus/Status.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="58" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.6853147" vertical-offset="261" max-vertical-offset="705">
@@ -1730,6 +1614,20 @@
       </provider>
       <provider editor-type-id="text-editor">
         <state line="55" column="43" selection-start="2174" selection-end="2174" vertical-scroll-proportion="0.0" vertical-offset="586" max-vertical-offset="1545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TflStatus/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="51" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TflStatus/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="7" selection-start="46" selection-end="46" vertical-scroll-proportion="0.14962594" vertical-offset="0" max-vertical-offset="401">
           <folding />
         </state>
       </provider>

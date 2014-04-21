@@ -1,0 +1,5 @@
+TflStatus/build/*
+.idea/*
+gradle
+.idea
+.gradle
