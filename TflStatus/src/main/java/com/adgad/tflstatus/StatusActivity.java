@@ -3,11 +3,13 @@ package com.adgad.tflstatus;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -25,6 +27,7 @@ public class StatusActivity extends Activity {
 
     private View mContentView;
     private View mLoadingView;
+    private ListView mListView;
     private TextView mLastUpdated;
     private int mAnimationDuration;
 
@@ -38,15 +41,31 @@ public class StatusActivity extends Activity {
         mLastUpdated = (TextView) findViewById(R.id.lastUpdated);
         mAnimationDuration = getResources().getInteger(android.R.integer.config_longAnimTime);
         mStatusArrayAdapter = new StatusArrayAdapter(this, new ArrayList<Status>());
-        ListView listView = (ListView) findViewById(R.id.listview);
-        listView.setAdapter(mStatusArrayAdapter);
-
+        mListView = (ListView) findViewById(R.id.listview);
+        mListView.setAdapter(mStatusArrayAdapter);
+        mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Status selectedStatus = mStatusArrayAdapter.getItem(i);
+                ColouredDialogBuilder adb = new ColouredDialogBuilder(StatusActivity.this);
+                adb.setTitle(selectedStatus.getName() + " Line");
+                adb.setMessage(selectedStatus.getFullDetails());
+                if(selectedStatus.hasProblems()) {
+                    adb.setIcon(R.drawable.ic_dialog_alert_holo_light);
+                }
+                String colorId = selectedStatus.getName().toLowerCase().replaceAll("\\s+","");
+                String colour = getResources().getString(getResources().getIdentifier(colorId, "color", "com.adgad.tflstatus"));
+                adb.setTitleColor(colour);
+                adb.setDividerColor(colour);
+                adb.setCancelable(true);
+                adb.setPositiveButton("OK", null);
+                adb.show();
+            }
+        });
         refreshItems();
 
 
     }
-
-
 
 
 
@@ -95,10 +114,10 @@ public class StatusActivity extends Activity {
                     Collections.sort(statii, new Comparator<com.adgad.tflstatus.Status>() {
                         @Override
                         public int compare(com.adgad.tflstatus.Status lhs, com.adgad.tflstatus.Status rhs) {
-                            if (lhs.getStatus().equals("Good Service")) {
-                                return 1;
-                            } else {
+                            if (lhs.hasProblems()) {
                                 return -1;
+                            } else {
+                                return 1;
                             }
                         }
                     });

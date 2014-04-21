@@ -46,4 +46,8 @@ public class Status {
         return full;
     }
 
+    public boolean hasProblems() {
+        return !(this.getStatus().equals("Good Service"));
+    }
+
 }
